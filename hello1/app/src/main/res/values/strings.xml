@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hello1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_wifiState">WifiState</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_activity_my_list">MyListActivity</string>
+    <string name="ShowMyList">Show My List</string>
+    <string name="title_activity_my_yes_no_list">MyYesNoListActivity</string>
+    <string name="ShowMyYesNoList">Show My Yes-No List</string>
+
+</resources>
