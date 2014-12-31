@@ -1,0 +1,184 @@
+Resource Path: ../../../android/managed/app/res
+Checking Folder: values
+... scanning file: ../../../android/managed/app/res/values/strings.xml
+...----- file scan summery -----
+...strings scanned: 896
+...fomatter checked: 157
+Checking Folder: values-bg
+... scanning file: ../../../android/managed/app/res/values-bg/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-ca
+... scanning file: ../../../android/managed/app/res/values-ca/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-cs
+... scanning file: ../../../android/managed/app/res/values-cs/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-da
+... scanning file: ../../../android/managed/app/res/values-da/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-de
+... scanning file: ../../../android/managed/app/res/values-de/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-el
+... scanning file: ../../../android/managed/app/res/values-el/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-es
+... scanning file: ../../../android/managed/app/res/values-es/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-et
+... scanning file: ../../../android/managed/app/res/values-et/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-fi
+... scanning file: ../../../android/managed/app/res/values-fi/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-fr
+... scanning file: ../../../android/managed/app/res/values-fr/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-hr
+... scanning file: ../../../android/managed/app/res/values-hr/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-hu
+... scanning file: ../../../android/managed/app/res/values-hu/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-in
+... scanning file: ../../../android/managed/app/res/values-in/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-it
+... scanning file: ../../../android/managed/app/res/values-it/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-ja
+... scanning file: ../../../android/managed/app/res/values-ja/strings.xml
+[!!!] formatter string warning, please verify manually
+<string name="ContactCardActivity_RemoveDialogContentDescription">連絡先リストから %1$ を削除します。</string>
+[]
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-ko
+... scanning file: ../../../android/managed/app/res/values-ko/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-land
+Checking Folder: values-lt
+... scanning file: ../../../android/managed/app/res/values-lt/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-lv
+... scanning file: ../../../android/managed/app/res/values-lv/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-nb
+... scanning file: ../../../android/managed/app/res/values-nb/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-nl
+... scanning file: ../../../android/managed/app/res/values-nl/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-pl
+... scanning file: ../../../android/managed/app/res/values-pl/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-pt-rBR
+... scanning file: ../../../android/managed/app/res/values-pt-rBR/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-pt-rPT
+... scanning file: ../../../android/managed/app/res/values-pt-rPT/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-ro
+... scanning file: ../../../android/managed/app/res/values-ro/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-ru
+... scanning file: ../../../android/managed/app/res/values-ru/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-sk
+... scanning file: ../../../android/managed/app/res/values-sk/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-sl
+... scanning file: ../../../android/managed/app/res/values-sl/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-sr
+... scanning file: ../../../android/managed/app/res/values-sr/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-sv
+... scanning file: ../../../android/managed/app/res/values-sv/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-sw600dp
+Checking Folder: values-sw600dp-land
+Checking Folder: values-tr
+... scanning file: ../../../android/managed/app/res/values-tr/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-uk
+... scanning file: ../../../android/managed/app/res/values-uk/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-vi
+... scanning file: ../../../android/managed/app/res/values-vi/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-zh-rCN
+... scanning file: ../../../android/managed/app/res/values-zh-rCN/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+Checking Folder: values-zh-rTW
+... scanning file: ../../../android/managed/app/res/values-zh-rTW/strings.xml
+...----- file scan summery -----
+...strings scanned: 895
+...fomatter checked: 157
+----- Summery -----
+locale file scanned: 38
