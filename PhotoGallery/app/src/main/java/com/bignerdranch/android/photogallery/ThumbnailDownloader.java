@@ -43,6 +43,9 @@ public class ThumbnailDownloader<Token> extends HandlerThread {
     //Synchronized Map to attach extra url info to Token(ImageView)
     Map<Token, String> requestMap = Collections.synchronizedMap(new HashMap<Token, String>());
 
+    // BitMap Cache
+    BitMapCache mBitmapCache = new BitMapCache();
+
     public ThumbnailDownloader(Handler responseHandler) {
         super(TAG);
         mResponseHandler = responseHandler;
@@ -74,17 +77,27 @@ public class ThumbnailDownloader<Token> extends HandlerThread {
         mHandler.obtainMessage(MESSAGE_DOWNLOAD,token).sendToTarget();
     }
 
+
+
     // Note this "final" while passing token
     private void handleRequest(final Token token) {
         try {
             final String url = requestMap.get(token);
             if (url ==null) return;
 
-            byte[] bitmapBytes = new FlickrFetchr().getUrlBytes(url);
+            // check from image cache
+            Bitmap bitmapFromMemCache = mBitmapCache.getBitmapFromMemCache(url);
+            if (bitmapFromMemCache==null){
+                byte[] bitmapBytes = new FlickrFetchr().getUrlBytes(url);
+                bitmapFromMemCache = BitmapFactory.decodeByteArray(bitmapBytes, 0, bitmapBytes.length);
+                mBitmapCache.addBitmapToMemoryCache(url,bitmapFromMemCache);
+                Log.i(TAG, "BitMap created, adding to cache");
+            }else {
+                Log.i(TAG, "BitMap Found from Cache!");
+            }
+            final Bitmap bitmap = bitmapFromMemCache;
 
-            final Bitmap bitmap = BitmapFactory.decodeByteArray(bitmapBytes, 0, bitmapBytes.length);
-            Log.i(TAG, "BitMap created");
-
+            // post to mainUI handler for updating
             mResponseHandler.post(new Runnable() {
                 // [!] this run posted to mResponseHandler attached to MainUI thread's
                 //     and will run in MainUI thread to update UI with on
